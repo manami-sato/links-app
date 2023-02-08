@@ -5,8 +5,7 @@ import Oshi from 'src/components/Oshi';
 const Home: NextPage = () => {
   return (
     <Box>
-      ああああ
-      <Oshi />
+      <Oshi index={0} />
     </Box>
   );
 };

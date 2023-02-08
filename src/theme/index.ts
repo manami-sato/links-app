@@ -1,7 +1,17 @@
 import { extendTheme } from '@chakra-ui/react';
 
 const colors = {
-  example: 'tomato',
+  black: '#444444',
+  gray: '#656565',
+  'oshi-red': '#FF6363',
+  'oshi-orange': '#FFB546',
+  'oshi-yellow': '#FFF067',
+  'oshi-green': '#96F19F',
+  'oshi-blue': '#638FFF',
+  'oshi-purple': '#BF7EFF',
+  'oshi-pink': '#FFA0D9',
+  'oshi-black': '#7D7D7D',
+  'oshi-white': '#F4F4F4',
 };
 const styles = {
   global: {
@@ -20,10 +30,10 @@ const styles = {
       },
     },
     '::selection': {
-      background: 'tomato',
+      background: 'black',
     },
     '::-moz-selection': {
-      background: 'tomato',
+      background: 'black',
     },
   },
 };
